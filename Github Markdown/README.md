@@ -69,26 +69,12 @@ Emojis
 
 ~~Double curly dash will strikethrough~~
 
+
+### Just seperating text with pipe symbol and followed by ----|----- line to seperate title with content
+
 Animal | Name
 --------- | ---------
 Dog      | Sam
 Cay      | Kitty
 
 
-
-
-5e245828d00609d2efefb9f258617cf9c63bb8b3
-
-joshi008/Learn-some-stuff@5e245828d00609d2efefb9f258617cf9c63bb8b3
-
-joshi008@5e245828d00609d2efefb9f258617cf9c63bb8b3
-
-
-
-16c999e8c71134401a78d4d46435517b2271d6ac
-
-
-mojombo@16c999e8c71134401a78d4d46435517b2271d6ac
-
-
-mojombo/github-flavored-markdown@16c999e8c71134401a78d4d46435517b2271d6ac
