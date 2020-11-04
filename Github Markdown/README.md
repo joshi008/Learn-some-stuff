@@ -1,6 +1,6 @@
-# Hash makes it <h1> tag
-## Double hash makes it <h2> tag
-### Triple hash makes it <h3> tag
+# Hash makes it h1 tag
+## Double hash makes it h2 tag
+### Triple hash makes it h3 tag
 ###### Checking out 6 hash before text
 
 **Bolding Items with double star around it**
