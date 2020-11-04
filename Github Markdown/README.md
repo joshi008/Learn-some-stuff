@@ -30,7 +30,8 @@ _Single underscore will also make it bold_
     * This is also buller with four space and star
 
 ![Github Logo](logo.png)
-We can insert image with ![something] ( link to images in repo )
+
+###We can insert image with ![something] ( link to images in repo )
 
 > This is a comment with ">" symbol.
 
