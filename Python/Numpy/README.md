@@ -70,3 +70,5 @@ a.dtype
 #Get Size
 a.itemsize
 # prints 2 as it is 16bits that is 2 bytes data type
+
+
