@@ -36,7 +36,7 @@ in your terminal or bash shell
 
 
 
-## Running our first code
+## Diving into code
 
 ####  Arrays
 ```python
@@ -47,7 +47,7 @@ print(a)
 ```
 
 ```python
-b  = np.array([[9.0,8.0,7.0],[23.0,5.9,65]])
+b  = np.array([[9.0,8.0,7.0],[23.0,5.9,6.5]])
 
 # getting dimesions like a is 1D array and b is 2D array
 a.ndim
@@ -70,3 +70,38 @@ a.dtype
 #Get Size
 a.itemsize
 # prints 2 as it is 16bits that is 2 bytes data type
+
+# Get Total size
+a.size * a.itemsize
+#or
+a.nbytes
+#Gives the same output
+
+```
+
+
+#### Accessing/CHanging specific elements, rows, columns, etc
+```
+a = np.array([[1,2,3,4,5,6,7],[8,9,10,11,12,13,14]])
+
+# Get specific element
+a[1][5] #prints 13
+
+a[1][-2] #prints 13
+
+
+# Get specific row
+a[0, :]  #prints whole first row
+
+#Get specific column
+a[:,2]
+
+
+# [startindex:endindex:stepsize]
+a[0, 1:6:2]
+# prints [2,4,6]
+
+
+# Updating elements
+a[1,5] = 20
+
