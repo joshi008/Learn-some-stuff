@@ -39,14 +39,14 @@ in your terminal or bash shell
 ## Running our first code
 
 ####  Arrays
-```
+```python
 import numpy as np
 
 a = np.array([1,2,3])
 print(a)
 ```
 
-```
+```python
 b  = np.array([[9.0,8.0,7.0],[23.0,5.9,65]])
 
 # getting dimesions like a is 1D array and b is 2D array
@@ -70,3 +70,4 @@ a.dtype
 #Get Size
 a.itemsize
 # prints 2 as it is 16bits that is 2 bytes data type
+```
