@@ -1,5 +1,5 @@
 #Numpy
-![image]("numpy.png")
+![image](./numpy.png)
 
 ## Why numpy over list?
 * List are very slow as compared to Numpy
