@@ -105,3 +105,47 @@ a[0, 1:6:2]
 # Updating elements
 a[1,5] = 20
 
+a[:,2] = 5
+
+
+# Getting specific elements
+b = np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
+b[0,1,1] # prints 4
+
+
+# Initialize all 0s matrix
+np.zeros((2,3))
+# Gives a matrix with 2 rows and 3 columns and all values as 0
+
+
+# All 1s matrix
+np.ones((4,2,2), dtype='int32')
+# dtype is optional
+
+
+# Any other number matrix
+np.full((2,2),99)
+# matrix of 2X2 with all values 99
+
+
+# Any other number (full_like)
+np.full_like(a.shape,4)
+
+
+# Random decimal numbers between 0 and 1
+np.random.rand(4,2)
+np.random_sample(a.shape)
+
+
+# Random integer values
+np.random.randint(7, 90, size=(3,3))
+# 7 is start value and 90 is ending
+
+
+# Identity matrix
+np.identity(5)
+
+
+arr = np.array([[1,2,3]])
+r1 = np.repeat(arr,3, axis=0)
+print(r1)
