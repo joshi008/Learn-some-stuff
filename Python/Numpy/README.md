@@ -273,3 +273,6 @@ np.all(filedata>50, axis=0)
 ```
 
 
+Major part of this page i learnt from https://www.youtube.com/watch?v=GB9ByFAIAH4
+
+
