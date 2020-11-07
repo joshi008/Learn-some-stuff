@@ -231,6 +231,15 @@ h1 = np.ones((2,4))
 h2 = np.zeros((2,2))
 
 np.hstack((h1,h2))
+
+
+# Arange() to initialize the array
+np.arange(4)   # this will give an array [0,1,2,3]
+
+np.arange(4,10)   # this will give an array [4,5,6,7,8,9]
+
+np.arange(4,20,3)    # this will give an array [4,7,10,13,16,19] that is arange(start, stop, size)
+
 ```
 
 
