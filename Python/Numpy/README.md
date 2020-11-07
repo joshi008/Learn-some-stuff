@@ -2,6 +2,8 @@
 
 ![image](./numpy.png)
 
+NumPy is the fundamental package needed for scientific computing with Python.
+
 ## Why numpy over list?
 * List are very slow as compared to Numpy
 
