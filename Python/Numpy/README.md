@@ -81,7 +81,7 @@ a.nbytes
 
 
 #### Accessing/CHanging specific elements, rows, columns, etc
-```
+```python
 a = np.array([[1,2,3,4,5,6,7],[8,9,10,11,12,13,14]])
 
 # Get specific element
@@ -149,3 +149,112 @@ np.identity(5)
 arr = np.array([[1,2,3]])
 r1 = np.repeat(arr,3, axis=0)
 print(r1)
+
+```
+
+
+
+#### Coppying arrays
+```python
+a = np.array([1,2,3])
+b = a
+b[0] = 100
+# Here a also changes with b
+
+b = a.copy()
+b[0] = 123
+# Now it is safe to copy a to b
+```
+
+#### Mathematics
+```python
+a = np.array([1,2,3,4])
+a + 2 #add 2 to each element
+a - 2 #subtract 2 from each element
+a * 2 #multiply 2 from each element
+a / 2 #divide 2 by each element
+a += 2
+
+b = np.array([1,0,1,0])
+a + b
+
+a ** 2 #power of 2
+
+np.sin(a) #takes sin of all values in array a
+
+np.cos(a) #takes cos of all values in array a
+
+```
+
+#### Linear Algebra
+```python
+a = np.ones((2,3))
+b = np.full((3,2),2)
+np.matmul(a,b)
+# Multiply matrices
+
+#Finding the determinant
+c = np.identity(3)
+np.linalg.det(c)
+```
+
+##### Found that axis=0 is for coloumn wise values and axis=1 is for row wise values.
+
+
+#### Statistics
+```python
+stats = np.array([[1,2,3],[4,5,6]])
+np.min(stats, axis=1) 
+
+np.max(stats, axis=1)
+
+np.sum(stats, axis=0)
+```
+
+#### Reorganizing arrays
+```python
+before = np.array([[1,2,3,4],[5,6,7,8]])
+after = before.reshape((2,2,2)) 
+# It changes the shape of the matrix as long as the matrix could be converted to the shape provided. That is it has that much elements
+
+
+# Vertically stacking vectors
+v1 = np.array([1,2,3,4])
+v2 = np.array([5,6,7,8])
+
+np.vstack([v1,v2,,v1,v2,v2])
+
+# Horizontal stack
+h1 = np.ones((2,4))
+h2 = np.zeros((2,2))
+
+np.hstack((h1,h2))
+```
+
+
+#### Miscellaneous
+```
+filedata = np.genfromtext('data.txt',delimiter=',')
+
+filedata = filedata.astype('int32')
+
+
+# Boolean Masking and advanced indexing
+
+filedata>50
+filedata[filedata>50]
+
+#Could index with a list in numpy
+np.array([1,2,3,4,5,6,7,8,9])
+a[[1,2,8]]
+# Outputs 2,3,9 because they are present in the index of 1,2,8
+
+
+np.any(filedata>50, axis=0)
+np.all(filedata>50, axis=0)
+
+(~((filedata>50) & (filedata<100)))
+((filedata>50) & (filedata<100))
+```
+
+
