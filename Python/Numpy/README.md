@@ -21,6 +21,7 @@ NumPy is the fundamental package needed for scientific computing with Python.
     * SIMD(single instruction multiple data) vector processing 
     * Effective cache utilization
 
+
 ## Applications
 * Many mathematical computations
 * Plotting 
