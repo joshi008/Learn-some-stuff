@@ -1,19 +1,19 @@
-#Virtual Environment
+# Virtual Environment
 
 
-###Installing on windows:
+### Installing on windows:
 ```
 py -m pip install --user virtualenv
 ```
 
 
-###Installing on Linux:
+### Installing on Linux:
 ```
 python3 -m pip install --user virtualenv
 ```
 
 
-###Creating virtual environment:
+### Creating virtual environment:
 
 Linux:
 ```
