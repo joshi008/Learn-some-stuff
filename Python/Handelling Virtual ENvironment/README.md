@@ -56,5 +56,5 @@ pip install -r requirements.txt
 ### Adding dependencies to requirement.txt and making requirements.txt if not exists
 
 ```
-pip freeze
+pip freeze > requirements. txt
 ```
