@@ -9,9 +9,9 @@ Lets see how good it does :wink:
 
 
 ## Table of content
-- [Github Markdown](Github Markdown) 
+- [Github Markdown]("Github Markdown") 
 - Python
-    - [Handelling Virtual ENvironment](Python/Handelling Virtual ENvironment)
+    - [Handelling Virtual ENvironment](Python/"Handelling Virtual ENvironment")
     - [Numpy](Python/Numpy)
     
 
