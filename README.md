@@ -9,7 +9,7 @@ Lets see how good it does :wink:
 
 
 ## Table of content
-- [Github Markdown](Github-Markdown) 
+- [Github Markdown](Github%20Markdown) 
 - Python
     - [Handelling Virtual ENvironment](Python/"Handelling Virtual ENvironment")
     - [Numpy](Python/Numpy)
