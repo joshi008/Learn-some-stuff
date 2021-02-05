@@ -11,7 +11,7 @@ Lets see how good it does :wink:
 ## Table of content
 - [Github Markdown](Github%20Markdown) 
 - Python
-    - [Handelling Virtual ENvironment](Python/"Handelling Virtual ENvironment")
+    - [Handelling Virtual ENvironment](Python/Handelling%20Virtual%20ENvironment)
     - [Numpy](Python/Numpy)
     
 
